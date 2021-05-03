@@ -54,3 +54,17 @@ Run command in terminal to execute the jar
 ```
 java -jar target/Points-0.0.1-SNAPSHOT.jar
 ```
+
+Now the application is running on localhost:8080  
+Open Postman app to run the API  
+
+
+1. Type the URL in the URL section
+```
+http://localhost:8080/fetchRewards/addTransaction
+```
+Add following json in the "Body"
+```json
+{ "payer": "DANNON", "points": 1000, "timestamp": "2020-11-02T14:00:00Z" }
+```
+and send using POST method to add the transaction  
