@@ -33,11 +33,9 @@ MySQL
 Pre Requirement:  
 
 
-1. [Install Java](https://www.java.com/en/download/)  
-2. 
-3. [Install Maven](https://maven.apache.org/download.cgi)  
-4.   
-5. [Install Postman](https://www.postman.com/downloads/)
+1. [Install Java](https://www.java.com/en/download/)    
+3. [Install Maven](https://maven.apache.org/download.cgi)      
+5. [Install Postman](https://www.postman.com/downloads/)  
     Postman to run API
 
 
