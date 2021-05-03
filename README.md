@@ -63,8 +63,16 @@ Open Postman app to run the API
 ```
 http://localhost:8080/fetchRewards/addTransaction
 ```
-Add following json in the "Body"
+2. Add following json in the "Body"
 ```json
 { "payer": "DANNON", "points": 1000, "timestamp": "2020-11-02T14:00:00Z" }
 ```
-and send using POST method to add the transaction  
+3. Send using POST method to add the transaction   
+
+Similarly add all the transactions:
+```json
+{ "payer": "UNILEVER", "points": 200, "timestamp": "2020-10-31T11:00:00Z" }
+{ "payer": "DANNON", "points": -200, "timestamp": "2020-10-31T15:00:00Z" }
+{ "payer": "MILLER COORS", "points": 10000, "timestamp": "2020-11-01T14:00:00Z" }
+{ "payer": "DANNON", "points": 300, "timestamp": "2020-10-31T10:00:00Z" }
+```
