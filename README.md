@@ -76,3 +76,39 @@ Similarly add all the transactions:
 { "payer": "MILLER COORS", "points": 10000, "timestamp": "2020-11-01T14:00:00Z" }
 { "payer": "DANNON", "points": 300, "timestamp": "2020-10-31T10:00:00Z" }
 ```
+
+To spend the points  
+1. Type URL
+```
+http://localhost:8080/fetchRewards/spendPoints
+```
+2. Add Json in the body
+```json
+{ "points": 5000 }
+```
+3. Send using POST method  
+
+Output wil be as shown  
+```json
+[
+{ "payer": "DANNON", "points": -100 },
+{ "payer": "UNILEVER", "points": -200 },
+{ "payer": "MILLER COORS", "points": -4,700 }
+]
+```
+      
+To view the left over balance
+1. Type the URL 
+```
+http://localhost:8080/fetchRewards/getBalance
+```
+2. Send using GET method  
+
+Output will be shown as  
+```json
+{
+"DANNON": 1000,
+"UNILEVER": 0,
+"MILLER COORS": 5300
+}
+```
