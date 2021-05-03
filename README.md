@@ -43,5 +43,14 @@ Step 1
 Clone the repository:  
 ```
 https://github.com/PrakharS2811/Fetch-Rewards.git
+```   
+Step 2   
+Run command to get JAR file
 ```
-
+mvn clean install
+```  
+Step 3  
+Run command in terminal to execute the jar  
+```
+java -jar target/Points-0.0.1-SNAPSHOT.jar
+```
