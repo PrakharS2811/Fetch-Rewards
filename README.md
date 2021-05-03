@@ -41,7 +41,7 @@ Pre Requirement:
 
 Step 1  
 Clone the repository:  
-'''
+```
 https://github.com/PrakharS2811/Fetch-Rewards.git
-'''
+```
 
